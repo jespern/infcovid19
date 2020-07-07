@@ -52,7 +52,7 @@ if __name__ == '__main__':
 
         for country in ['denmark', 'united-states', 'spain', 'italy', 
                         'germany', 'france', 'united-kingdom', 'china', 
-                        'iran', 'sweden', 'korea-south']:
+                        'iran', 'sweden', 'korea-south', 'brazil']:
             req = requests.get(CONST_COUNTRY_URL + '/' + country)
 
             for dp in req.json():
